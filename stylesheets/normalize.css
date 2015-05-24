@@ -5,10 +5,9 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@font-face {font-family:Noto Sans CJK Regular; src:url(font/NSKR300.woff);}
-body{font-family:"본고딕",Noto Sans CJK Regular}
+@font-face {font-family:Noto Sans CJK Regular; src:url(font/NSKR400.woff);}
 html {
-  font-family:"본고딕",Noto Sans CJK Regular /* 1 */
+  font-family: "Noto Sans CJK Regular",NanumGothic,Malgun Gothic,Apple SD Gothic Neo; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
