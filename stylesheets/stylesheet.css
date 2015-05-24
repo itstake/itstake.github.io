@@ -1,10 +1,12 @@
+@font-face {font-family:Noto Sans CJK Regular; src:url(font/NSKR300.woff);}
+body{font-family:"본고딕",Noto Sans CJK Regular}
 * {
   box-sizing: border-box; }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"본고딕",Noto Sans CJK Regular;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
