@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+ 
+@font-face { 
+/* 폰트 이름 아무거나 적어주시면 됩니다.*/
+font-family:'BonGothic';
+/* 다운 받은 폰트 적용 */
+src: url("NSKR400.woff");
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	background-color:#eeeeee;
+}
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	width:1295px;
+	height:2000px;
+	position:relative;
+	background-color:#fff;
+}
+.main-slider {
+	z-index:10;
+	position:relative;
+}
+.main-slider > div {
+	overflow:hidden;
+}
+.main-slider .slider-text {
+	position:absolute;
+	top:210px;
+	width:100%;
+	text-align:center;
+	font-family: 'BonGothic';
+	font-size:20px;
+	color:#fff;
+}
+header {
+	position:fixed;
+	top:0;
+	z-index:15;
+}
+.logo {
+	float:left;
+	margin-top:10px;
+}
+.main-menu {
+	margin-top:21px;
+	float:left;
+	margin-left:10px;
+}
+.main-menu ul li {
+	float:left;
+	margin-right:20px;
+}
+.main-menu ul li a {
+	font-family:'BonGothic';
+	color:#fff;
+	font-size:20px;
+	text-decoration:none;
+}
+.itsMusic {
+	display: none;
+}
+.Feather {
+	display: none;
+}
+.NoCleanWave {
+	display: none;
+}
+.main-content div h1 {
+	margin-left:auto;
+	margin-right:auto;
+	width:250px;
+	padding-top:200px;
+	font-size:20px;
+	font-weight:bold;
+	
+}
+.button-active {
+	text-decoration:underline;
+}
+
+footer {
+	text-align:center;
+	background-color:#777;
+	font-size:14px;
+	font-family:'BonGothic';
+	padding:30px 0;
+	color:#fff;
+}
+footer strong {
+	font-weight:bold;
+	color:#fff;
+}
+
+.container-min-height {
+	float:left; 
+	width:100%;
+}
